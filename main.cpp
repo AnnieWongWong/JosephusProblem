@@ -55,6 +55,8 @@ int main()
 		cin >> direction;
 	}
 
+  cout << "Order of Execution: ";
+
 	double numLeft = numPeople;																				// Set counter to check when there is only one person left on the island
 	double skipCounter = numSkip - 1;																		// Set skipcounter to user entered number - 1 b/c if user entered 2, it means you have to traverse once to get to the node(person) you want to delete.
     while (numLeft > 1){																					// While loop to check for wne there is only one person left on the island
